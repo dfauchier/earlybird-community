@@ -109,7 +109,7 @@ h1 img {
 /* MEDIA QUERIES */
 
 
-@media (max-width: 900px) {
+@media only screen and (max-device-width: 900px) {
   #crane img {
     display: none;
   }
