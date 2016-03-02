@@ -109,20 +109,19 @@ h1 img {
 /* MEDIA QUERIES */
 
 
-@media only screen and (max-device-width: 900px) {
-  #crane img {
-    display: none;
-  }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px)  {
+	  #crane img {
+	    display: none;
+	  }
 
-  #copy h1 {
-  	font-size: 200%;
-  }
+	  #copy h1 {
+	  	font-size: 200%;
+	  }
 
-  #copy h3 {
-  	font-size: 150%;
-  }
+	  #copy h3 {
+	  	font-size: 150%;
+	  }
 
-  #button a {
-  	/*font-size: 200%;*/
+ 
   }
 }
