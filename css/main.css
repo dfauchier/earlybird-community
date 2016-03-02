@@ -10,6 +10,8 @@ background: url('../assets/blue-mat.svg');
 }
 
 
+
+
 #crane  {
 	width: 400px;
 	overflow: hidden;
@@ -24,12 +26,12 @@ background: url('../assets/blue-mat.svg');
 #crane img {
 	width: 100%;
 	max-height: 70vh;
-
 	text-align: center;
-	/*background-color: green;*/
 	margin: 0 auto;
 	display: block;
+
 	}
+
 
 
 #copy {
@@ -96,8 +98,31 @@ background: url('../assets/blue-mat.svg');
 	font-size: 17px;
 	line-height: 50px;
 }
-p img {
+h1 img {
 	display: inline;
 	max-height: 1em;
 	vertical-align: middle;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 700px) {
+  #crane img {
+    display: none;
+  }
+
+  #copy h1 {
+  	font-size: 200%;
+  }
+
+  #copy h3 {
+  	font-size: 150%;
+  }
+
+  #button a {
+  	/*font-size: 200%;*/
+  }
 }
