@@ -1,0 +1,103 @@
+body {
+
+background: url('../assets/blue-mat.svg');
+
+/* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+#crane  {
+	width: 400px;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10vh;
+	padding-right: 100px;
+	/*background-color: orange;	*/
+}
+
+
+#crane img {
+	width: 100%;
+	max-height: 70vh;
+
+	text-align: center;
+	/*background-color: green;*/
+	margin: 0 auto;
+	display: block;
+	}
+
+
+#copy {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+	padding-right: 35px;
+	margin-top: 70px;
+	color: white;
+	/*background-color: green;*/
+
+
+}
+
+
+
+	#header {
+		font-family: 'montserrat';
+		font-weight: 700;
+		letter-spacing: 1.2;
+		line-height: 1.5;
+		font-size: 20px;
+		width: 300px;
+		/*background-color: orange;*/
+		margin: 0 auto;
+
+
+	}
+
+	h3 {
+		font-family: 'lato';
+		font-weight: 300;
+		letter-spacing: 1.2;
+		line-height: 1.5;
+		font-size: 15px;
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 20px;
+
+	}
+
+#button {
+	width: 155px;
+	height: 50px;
+	background-color: #71B3FF;
+	box-shadow: 0px 2px 0px #396FAD;
+	border-radius: 3px;
+	margin: 0 auto;
+	margin-top: 35px;
+	text-align: center;
+
+
+}
+
+
+#link  {
+
+	text-decoration: none;
+	color: white;
+	font-family: 'montserrat';
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-size: 17px;
+	line-height: 50px;
+}
+p img {
+	display: inline;
+	max-height: 1em;
+	vertical-align: middle;
+}
