@@ -104,6 +104,21 @@ h1 img {
 	vertical-align: middle;
 }
 
+#signup {
+	color: white;
+	opacity: 8%;
+	margin-top: 15px;
+	font-size: 85%;
+}
+
+#signup a {
+	color: white;
+		opacity: 8%;
+
+
+}
+
+
 
 
 /* MEDIA QUERIES */
