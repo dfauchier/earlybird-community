@@ -112,8 +112,13 @@ h1 img {
 }
 
 #signup a {
-	color: white;
-		opacity: 8%;
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+
+}
+
+#signup a:hover {
+text-decoration: underline;
 
 
 }
